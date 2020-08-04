@@ -1,5 +1,8 @@
 <script>
   export let segment;
+  const clickHandler = () => {
+    netlifyIdentity.open();
+  };
 </script>
 
 <style>
@@ -69,6 +72,11 @@
         aria-current={segment === 'books' ? 'page' : undefined}
         href="books">
         books
+      </a>
+    </li>
+    <li data-netlify-identity-menu on:click={clickHandler}>
+      <a aria-current={segment === 'login' ? 'page' : undefined} href="#top">
+        login
       </a>
     </li>
   </ul>
