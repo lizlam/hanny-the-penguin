@@ -16,7 +16,7 @@
 
 <main in:fade>
   <h1>Hanny the Penguin</h1>
-  <h3>Follow the adventures of Hanny the Penguin.</h3>
+  <h3>Read the adventures of Hanny the Penguin.</h3>
 
-  <p>Hanny the penguin. What came first? The penguin or the egg?</p>
+  <p>Hanny the Penguin is a curious one.</p>
 </main>

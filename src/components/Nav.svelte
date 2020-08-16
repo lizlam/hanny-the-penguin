@@ -49,12 +49,17 @@
     padding: 1em 0.5em;
     display: block;
   }
+
+  .login {
+    float: right;
+    margin-right: 1em;
+  }
 </style>
 
 <nav>
   <ul>
     <li>
-      <a aria-current={segment === undefined ? 'page' : undefined} href=".">
+      <a aria-current={segment === 'home' ? 'page' : undefined} href=".">
         home
       </a>
     </li>
@@ -74,10 +79,11 @@
         books
       </a>
     </li>
-    <li data-netlify-identity-menu on:click={clickHandler}>
+    <li class="login" data-netlify-identity-menu on:click={clickHandler}>
       <a aria-current={segment === 'login' ? 'page' : undefined} href="#top">
         login
       </a>
     </li>
   </ul>
+
 </nav>
