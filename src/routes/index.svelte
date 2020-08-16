@@ -1,3 +1,7 @@
+<script>
+  import { fade } from "svelte/transition";
+</script>
+
 <style>
   @media (min-width: 480px) {
     h1 {
@@ -10,7 +14,9 @@
   <title>Hanny the Penguin</title>
 </svelte:head>
 
-<h1>Hanny the Penguin</h1>
-<h3>Which came first? The penguin or the egg?</h3>
+<main in:fade>
+  <h1>Hanny the Penguin</h1>
+  <h3>Follow the adventures of Hanny the Penguin.</h3>
 
-<p>Hanny the penguin. What came first? The penguin or the egg?</p>
+  <p>Hanny the penguin. What came first? The penguin or the egg?</p>
+</main>
