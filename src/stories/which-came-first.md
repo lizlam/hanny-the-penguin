@@ -30,7 +30,7 @@ Wally stared at Hanny, not knowing how to answer.
 
 "Oh, I'm just wondering. I need to keep thinking.  See you later."
 
-Hanny walked away as Wally waved goodbye with his tale.
+Hanny walked away as Wally waved goodbye with his tail.
 
 
 

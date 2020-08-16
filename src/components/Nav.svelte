@@ -37,7 +37,7 @@
   [aria-current]::after {
     position: absolute;
     content: "";
-    width: calc(100% - 1em);
+    width: calc(100% - 0.4em);
     height: 2px;
     background-color: rgb(255, 62, 0);
     display: block;
@@ -46,7 +46,8 @@
 
   a {
     text-decoration: none;
-    padding: 1em 0.5em;
+    padding: 0em 0.3em;
+    margin: 0.4em;
     display: block;
   }
 
@@ -59,7 +60,7 @@
 <nav>
   <ul>
     <li>
-      <a aria-current={segment === 'home' ? 'page' : undefined} href=".">
+      <a aria-current={segment === undefined ? 'page' : undefined} href=".">
         home
       </a>
     </li>
