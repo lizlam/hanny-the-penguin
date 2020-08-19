@@ -1,7 +1,9 @@
 <script>
   export let segment;
+  const user = "hello";
   const clickHandler = () => {
     netlifyIdentity.open();
+    user = netlifyIdentity.currentUser();
   };
 </script>
 
@@ -59,7 +61,7 @@
 
 <nav>
   <ul>
-    <li>
+    <li style="margin-top: 3.75px;">
       <a aria-current={segment === undefined ? 'page' : undefined} href=".">
         home
       </a>
@@ -82,7 +84,7 @@
     </li>
     <li class="login" data-netlify-identity-menu on:click={clickHandler}>
       <a aria-current={segment === 'login' ? 'page' : undefined} href="#top">
-        login
+        login {user}
       </a>
     </li>
   </ul>
