@@ -1,10 +1,25 @@
 <script>
+  import { onMount } from "svelte";
   export let segment;
-  const user = "hello";
+  let user;
+
+  $: isLoggedIn = user !== null;
+
+  onMount(() => {
+    user = netlifyIdentity.currentUser();
+  });
+
   const clickHandler = () => {
     netlifyIdentity.open();
-    user = netlifyIdentity.currentUser();
   };
+
+  //netlifyIdentity.on("login", user => {
+  //  console.log("login");
+  //});
+
+  //netlifyIdentity.on("logout", user => {
+  //  console.log("logout");
+  //});
 </script>
 
 <style>
@@ -71,7 +86,6 @@
         about
       </a>
     </li>
-
     <!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
 		     the blog data when we hover over the link or tap it on a touchscreen -->
     <li>
@@ -82,9 +96,22 @@
         books
       </a>
     </li>
+
+    <!-- Show if logged in -->
+    {#if isLoggedIn}
+      <li>
+        <a
+          aria-current={segment === 'downloads' ? 'page' : undefined}
+          href="downloads">
+          downloads
+        </a>
+      </li>
+    {/if}
+    <!-- End of logged in info -->
+
     <li class="login" data-netlify-identity-menu on:click={clickHandler}>
       <a aria-current={segment === 'login' ? 'page' : undefined} href="#top">
-        login {user}
+        login
       </a>
     </li>
   </ul>

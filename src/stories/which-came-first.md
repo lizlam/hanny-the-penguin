@@ -34,9 +34,12 @@ Wally stared at Hanny, not knowing how to answer.
 
 "I don't know Hanny.  Why do you ask?"
 
-"Oh, I'm just wondering. I need to keep thinking.  See you later."
+"Oh, I'm just wondering."
 
 Hanny walked away as Wally waved goodbye with his tail.
+
+![Baby Penguin](/drawings/baby.jpg)
+
 
 
 
