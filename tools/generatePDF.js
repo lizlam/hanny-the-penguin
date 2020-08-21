@@ -10,6 +10,11 @@ const getPDF = async () => {
       const browser = await puppeteer.launch();
       const page = await browser.newPage();
       await page.goto(url, {waitUntil: 'networkidle2'});
+      // remove navigation
+      await page.evaluate(sel => {
+        let element = document.querySelector(sel);
+        element.remove();
+      },'nav')
       await page.pdf({
          path: 'which-came-first.pdf', 
          width: '6in', 
