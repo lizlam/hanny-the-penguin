@@ -14,7 +14,9 @@ She walked outside and saw a group of her friends playing.
 Hanny asked, "Which came first, the penguin or the egg?"
 
 Her friends looked at each other and wasn't sure what to say.  
-Millie, the oldest in the group replied, "Don't worry about such questions and just come and play!"
+
+Millie, the oldest in the group replied,
+"Don't worry about such questions and just come and play!"
 
 ![Millie](/drawings/millie.jpg)
 
@@ -38,8 +40,28 @@ Wally stared at Hanny, not knowing how to answer.
 
 Hanny walked away as Wally waved goodbye with his tail.
 
+![Wally waving goodbye](/drawings/tail.jpg)
+
+As Hanny headed back toward home, she could hear her mother yelling.
+
+"Hanny! Hanny! Where are you? It's time to come home!"
+
+"Coming Mother!" yelled Hanny.
+
+Hanny ran into the house and found her mother preparing dinner.
+
+"Mother, which came first, the penguin or..."
+
+Before Hanny could finish her question a strange cracking sound could
+be heard from the other room.
+
+Hanny and Mother ran into the room.
+
+A very hungry baby penguin emerged from an egg!
+
 ![Baby Penguin](/drawings/baby.jpg)
 
+"Oh hello little one! We have been waiting for you!" cried Mother penguin excitedly.
 
 
 
