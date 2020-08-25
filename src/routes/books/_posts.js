@@ -10,6 +10,7 @@ const posts = fs.readdirSync('./src/stories').map(file => {
 	return {
 		title: postFrontMatter.attributes.title,
 		slug: postFrontMatter.attributes.slug,
+		cover_img: postFrontMatter.attributes.cover_img,
 		html: marked(postFrontMatter.body)
 	}
 });

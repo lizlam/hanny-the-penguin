@@ -1,6 +1,7 @@
 ---
-title: 'Which Came First: The Penguin or the Egg?'
+title: 'Which Came First, the Penguin or the Egg?'
 slug: 'which-came-first'
+cover_img: '/drawings/hanny-room.jpg'
 ---
 
 Hanny the penguin was pacing around her room one day.  Thinking in her head, "Which came first, the penguin or the egg?"
@@ -20,7 +21,7 @@ Millie, the oldest in the group replied,
 
 ![Millie](/drawings/millie.jpg)
 
-Hanny kept on walking and wondering, leaving her friends behind.
+Hanny kept on walking and wondering, leaving her friends behind. 
 
 Hanny walked up to the edge of the water and looked out to the sea.
 She saw her good friend Wally the Whale come up for a breath of fresh air. 
@@ -50,18 +51,18 @@ As Hanny headed back toward home, she could hear her mother yelling.
 
 Hanny ran into the house and found her mother preparing dinner.
 
-"Mother, which came first, the penguin or..."
+"Mother, which came first, the penguin or the egg?"
 
-Before Hanny could finish her question a strange cracking sound could
-be heard from the other room.
+Before Mother Penguin could answer a strange pecking sound was coming from the other room.
 
-Hanny and Mother ran into the room.
-
-A very hungry baby penguin emerged from an egg!
+Hanny and Mother ran to see a very hungry baby penguin emerging from an egg!
 
 ![Baby Penguin](/drawings/baby.jpg)
 
-"Oh hello little one! We have been waiting for you!" cried Mother penguin excitedly.
+"Oh hello little one! We have been waiting for you!" cried Mother Penguin excitedly.
+
+Mother Penguin hugged them both and gently whispered,"You both come first in my heart."
+
 
 
 

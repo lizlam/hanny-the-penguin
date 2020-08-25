@@ -10,6 +10,7 @@
 </script>
 
 <script>
+  import Card from "../../components/Card.svelte";
   export let posts;
 </script>
 
@@ -33,9 +34,12 @@
 				tell Sapper to load the data for the page as soon as
 				the user hovers over the link or taps it, instead of
 				waiting for the 'click' event -->
-      <li>
-        <a rel="prefetch" href="books/{post.slug}">{post.title}</a>
-      </li>
+      <Card title={post.title} img={post.cover_img} link="books/{post.slug}">
+        <li>
+          <a rel="prefetch" href="books/{post.slug}">{post.title}</a>
+
+        </li>
+      </Card>
     {/each}
   </ul>
 </main>
