@@ -19,6 +19,13 @@
     margin: 0 0 1em 0;
     line-height: 1.5;
   }
+
+  @media (max-width: 400px) {
+    ul {
+      margin: 0 0 0 0;
+      padding-left: 0px;
+    }
+  }
 </style>
 
 <svelte:head>

@@ -8,10 +8,10 @@
 <style>
   .container {
     border: 1px solid rgba(255, 62, 0, 0.1);
-
     border-radius: 25px;
     padding: 2rem;
     width: 240px;
+    margin: 1rem;
   }
 
   .container:hover {
@@ -20,6 +20,18 @@
 
   img {
     padding-top: 2rem;
+  }
+
+  @media (max-width: 400px) {
+    .container {
+      padding-top: 1rem;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      width: 190px;
+    }
+    img {
+      padding-top: 1rem;
+    }
   }
 </style>
 
