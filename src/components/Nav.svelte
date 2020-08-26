@@ -85,7 +85,7 @@
     visibility: hidden;
   }
 
-  @media (max-width: 400px) {
+  @media (max-width: 480px) {
     nav {
       height: 5px;
     }
