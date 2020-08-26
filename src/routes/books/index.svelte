@@ -20,7 +20,7 @@
     line-height: 1.5;
   }
 
-  @media (max-width: 400px) {
+  @media (max-width: 480px) {
     ul {
       margin: 0 0 0 0;
       padding-left: 0px;
