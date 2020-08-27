@@ -14,14 +14,21 @@ const getPDF = async () => {
       await page.evaluate(sel => {
         let element = document.querySelector(sel);
         element.remove();
-      },'nav')
+      },'.mobile-nav')
+      await page.evaluate(sel => {
+        let byline = document.createElement('div');
+        byline.innerHTML = "By Elizabeth Rich";
+        let el = document.querySelector(sel);
+        el.insertAdjacentElement('afterend', byline);
+      },'h1')
       await page.pdf({
          path: 'which-came-first.pdf', 
          width: '6in', 
          height: '9in',
-         margin: {top: '.5in', bottom: '.5in'},
+         //margin: {top: '.5in', bottom: '.5in'},
+         margin: {top: '.5in', right: '.25in', bottom: '.5in', left: '.25in'},
          printBackground: true,
-         headerTemplate: '<span class="pageNumber" />'
+         pageRanges: '1-5'
       });
       await browser.close();
     })
