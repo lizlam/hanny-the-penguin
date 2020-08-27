@@ -5,7 +5,7 @@
   let user;
 
   $: isLoggedIn = user !== null;
-  $: showMenu = false;
+  $: showNavMenu = false;
 
   onMount(() => {
     user = netlifyIdentity.currentUser();
@@ -13,19 +13,18 @@
 
   const clickHandler = () => {
     netlifyIdentity.open();
+    netlifyIdentity.on("login", user => {
+      isLoggedIn = true;
+      console.log(user.user_metadata.full_name);
+    });
+    netlifyIdentity.on("logout", user => {
+      isLoggedIn = false;
+    });
   };
 
   const clickMenu = () => {
-    showMenu = !showMenu;
+    showNavMenu = !showNavMenu;
   };
-
-  //netlifyIdentity.on("login", user => {
-  //  console.log("login");
-  //});
-
-  //netlifyIdentity.on("logout", user => {
-  //  console.log("logout");
-  //});
 </script>
 
 <style>
@@ -116,7 +115,7 @@
     <rect y="50" width="100" height="7" rx="50px" />
   </svg>
 </div>
-{#if showMenu}
+{#if showNavMenu}
   <div in:fade class="mobile-nav-menu">
     <a href=".">home</a>
     <a href="about">about</a>
@@ -161,7 +160,7 @@
 
       <li class="login menu" data-netlify-identity-menu on:click={clickHandler}>
         <a aria-current={segment === 'login' ? 'page' : undefined} href="#top">
-          login
+          {isLoggedIn ? `logout` : `login`}
         </a>
       </li>
     </ul>
