@@ -42,6 +42,7 @@
   <h1>Contact</h1>
 
   <form method="POST" name="contact" data-netlify="true">
+    <input type="hidden" name="form-name" value="contact" />
     <div>
       <label for="name">Name:</label>
       <input type="name" name="name" placeholder="" required />
