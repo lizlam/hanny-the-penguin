@@ -135,6 +135,13 @@
           about
         </a>
       </li>
+      <li class="menu">
+        <a
+          aria-current={segment === 'contact' ? 'page' : undefined}
+          href="contact">
+          contact
+        </a>
+      </li>
       <!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
 		     the blog data when we hover over the link or tap it on a touchscreen -->
       <li class="menu">

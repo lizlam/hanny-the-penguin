@@ -7,7 +7,7 @@
 
 <style>
   .container {
-    border: 1px solid rgba(255, 62, 0, 0.1);
+    border: 1px solid rgba(243, 126, 87, 0.1);
     border-radius: 25px;
     padding: 2rem;
     width: 240px;
