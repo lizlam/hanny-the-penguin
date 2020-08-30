@@ -41,7 +41,7 @@
 <main in:fade>
   <h1>Contact</h1>
 
-  <form action="POST" name="contact" data-netlify="true">
+  <form method="POST" name="contact" data-netlify="true">
     <div>
       <label for="name">Name:</label>
       <input type="name" name="name" placeholder="" required />
