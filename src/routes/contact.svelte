@@ -21,12 +21,15 @@
     border: 1px solid rgb(243, 126, 87, 0.1);
     margin-top: 0.6rem;
   }
-  input.submit {
+  button.submit {
     border: 1px solid rgb(243, 126, 87, 0.1);
+    background-color: inherit;
+    font-family: auto;
+    font-size: 24px;
     height: 4rem;
     width: 14rem;
   }
-  input.submit:hover {
+  button.submit:hover {
     border: 3px solid rgb(243, 126, 87, 0.3);
   }
 </style>
@@ -38,7 +41,7 @@
 <main in:fade>
   <h1>Contact</h1>
 
-  <form action="post" name="contact" data-netlify="true">
+  <form action="POST" name="contact" data-netlify="true">
     <div>
       <label for="name">Name:</label>
       <input type="name" name="name" placeholder="" required />
@@ -53,6 +56,6 @@
         <textarea name="message" cols="75px" rows="7" required />
       </div>
     </div>
-    <input class="submit" type="submit" value="Send Message" />
+    <button class="submit" type="submit">Send Message</button>
   </form>
 </main>
