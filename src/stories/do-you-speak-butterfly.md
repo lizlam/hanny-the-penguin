@@ -59,7 +59,7 @@ Suddenly, another butterfly appeared fluttering about.
 "Do you speak butterfly?" Hanny asked.
 
 "Of course I do, I'm a butterfly, and I speak penguin too.  
-My name is Lucy, and this is my little sister, Belle.  
+I'm Lucy, and this is my little sister, Belle.  
 Mother wants us home right away." Lucy responded.
 
 Belle fluttered her wings twice again.
@@ -68,8 +68,7 @@ Belle fluttered her wings twice again.
 
 Belle and Lucy fluttered around each other.
 
-"Belle asked if you would be her friend and promises to learn  
-how to speak penguin with you." Lucy replied.
+"Belle asked if you would be her friend and promises to learn how to speak penguin with you." Lucy replied.
 
 ![Butterflies flying away](/drawings/butterflies_leaving.jpg)
 
