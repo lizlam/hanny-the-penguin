@@ -62,11 +62,15 @@ My name is Lucy, and this is my little sister, Belle. Mother wants us home right
 
 Belle fluttered her wings twice again.
 
-Belle and Lucy fluttered and flew around in circles with each other.
+"What is Belle saying?" Hanny asked.
+
+Belle and Lucy fluttered around each other.
+
+"Belle asked if you would be her friend and promises to learn
+how to speak penguin with you." Lucy replied.
 
 ![Butterflies flying away](/drawings/butterflies_leaving.jpg)
 
-As they start to fly away, Lucy said,
-"Belle wants to be your friend and promises to learn how to speak penguin with you."
+As they start to fly away, Hanny replied excitedly,
 
-Hanny replied excitedly, "Oh, I would love to be your friend, and I will learn how to speak butterfly too!"
+"Oh, I would love to be your friend, and I will learn how to speak butterfly too!"
