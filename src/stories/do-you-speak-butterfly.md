@@ -18,7 +18,7 @@ The butterfly fluttered her wings twice and then stood perfectly still.
 
 The butterfly fluttered her wings twice again.
 
-"Sorry, pretty butterfly. I don't understand what you are saying," said Hannah.
+"Sorry, pretty butterfly. I don't know what you are saying," said Hannah.
 
 Hanny saw Sally the seal in the distance and hurried towards her.
 
@@ -44,21 +44,23 @@ Millie, the oldest of the group, came towards them.
 
 "Do you speak butterfly?" asked Hanny.
 
-"Hanny, you are always asking such curious questions. Come and play with us. Your butterfly can come play too." Millie replied.
+"Hanny, you are always asking such curious questions.  
+Come and play with us. Your butterfly can come play too." Millie replied.
 
 The butterfly fluttered four times.
 
-Sally ran off with Millie to join the others, while Hanny watched the butterfly curiously.
+Sally ran off with Millie to join the others,  
+while Hanny watched the butterfly curiously.
 
-Suddenly, another butterfly appeared fluttering about as though talking to
-Hanny's butterfly.
+Suddenly, another butterfly appeared fluttering about.
 
 ![Butterfly](/drawings/butterfly.jpg)
 
 "Do you speak butterfly?" Hanny asked.
 
-"Of course I do, I'm a butterfly, and I speak penguin too.
-My name is Lucy, and this is my little sister, Belle. Mother wants us home right away." Lucy responded.
+"Of course I do, I'm a butterfly, and I speak penguin too.  
+My name is Lucy, and this is my little sister, Belle.  
+Mother wants us home right away." Lucy responded.
 
 Belle fluttered her wings twice again.
 
@@ -66,7 +68,7 @@ Belle fluttered her wings twice again.
 
 Belle and Lucy fluttered around each other.
 
-"Belle asked if you would be her friend and promises to learn
+"Belle asked if you would be her friend and promises to learn  
 how to speak penguin with you." Lucy replied.
 
 ![Butterflies flying away](/drawings/butterflies_leaving.jpg)
