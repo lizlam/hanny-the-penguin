@@ -120,6 +120,7 @@
     <a href=".">home</a>
     <a href="about">about</a>
     <a href="books">books</a>
+    <a href="store">store</a>
   </div>
 {/if}
 <nav>
@@ -155,9 +156,9 @@
       <li class="menu">
         <a
           rel="prefetch"
-          aria-current={segment === 'merchandise' ? 'page' : undefined}
-          href="merchandise">
-          merchandise
+          aria-current={segment === 'store' ? 'page' : undefined}
+          href="store">
+          store
         </a>
       </li>
 
