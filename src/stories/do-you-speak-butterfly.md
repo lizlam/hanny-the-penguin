@@ -18,7 +18,7 @@ The butterfly fluttered her wings twice and then stood perfectly still.
 
 The butterfly fluttered her wings twice again.
 
-"Sorry, pretty butterfly. I don't know what you are saying," said Hannah.
+"Sorry, pretty butterfly. I don't know what you are saying," said Hanny.
 
 Hanny saw Sally the seal in the distance and hurried towards her.
 
