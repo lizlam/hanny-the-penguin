@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 
 const books = [
   //'https://hanny-the-penguin.netlify.app/books/which-came-first'
-  'https://hanny-the-penguin.netlify.app/books/speak-butterfly'
+  'http://localhost:3000/books/speak-butterfly'
 ]
 
 const getPDF = async () => {
@@ -30,7 +30,7 @@ const getPDF = async () => {
          //margin: {top: '.5in', bottom: '.5in'},
          margin: {top: '.5in', right: '.25in', bottom: '.5in', left: '.25in'},
          printBackground: true,
-         pageRanges: '1-6'
+         pageRanges: '1-5'
       });
       await browser.close();
     })

@@ -30,8 +30,6 @@ Hanny saw Sally the seal in the distance and hurried towards her.
 
 The butterfly fluttered her wings again.
 
-Sally thought for a moment.
-
 "I do not speak butterfly, but I think we can find someone who can," said Sally.
 
 Sally and Hanny waddled on towards a group of penguins playing.
@@ -44,8 +42,8 @@ Millie, the oldest of the group, came towards them.
 
 "Do you speak butterfly?" asked Hanny.
 
-"Hanny, you are always asking such curious questions.  
-Come and play with us. Your butterfly can come play too." Millie replied.
+"Hanny, you are always asking such curious questions. Come and play with us.
+Your butterfly can come play too." Millie replied.
 
 The butterfly fluttered four times.
 
@@ -66,12 +64,10 @@ Belle fluttered her wings twice again.
 
 "What is Belle saying?" Hanny asked.
 
-Belle and Lucy fluttered around each other.
-
 "Belle asked if you would be her friend and promises to learn how to speak penguin with you." Lucy replied.
-
-![Butterflies flying away](/drawings/butterflies_leaving.jpg)
 
 As they start to fly away, Hanny replied excitedly,
 
-"Oh, I would love to be your friend, and I will learn how to speak butterfly too!"
+![Butterflies flying away](/drawings/butterflies_leaving.jpg)
+
+"Oh, I would love to be your friend. Come back again sometime and I will learn how to speak butterfly too!"

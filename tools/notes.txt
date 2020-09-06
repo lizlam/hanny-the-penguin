@@ -1,0 +1,14 @@
+Add to end of book that to keep background color:
+
+<div
+      style="
+        height: 90vh;
+        width: 100%;
+        background: #ffffff8;
+        -webkit-print-color-adjust: exact;
+      "
+></div>
+
+Add metadata to pdf:
+exiftool -title="Do You Speak Butterfly?" -author="Elizabeth Rich" ./speak-butterfly.pdf
+
