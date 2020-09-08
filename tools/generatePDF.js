@@ -1,7 +1,8 @@
 const puppeteer = require('puppeteer');
 
 const books = [
-  'https://hanny-the-penguin.netlify.app/books/which-came-first'
+  //'https://hanny-the-penguin.netlify.app/books/which-came-first'
+  'http://localhost:3000/books/speak-butterfly'
 ]
 
 const getPDF = async () => {
@@ -22,7 +23,8 @@ const getPDF = async () => {
         el.insertAdjacentElement('afterend', byline);
       },'h1')
       await page.pdf({
-         path: 'which-came-first.pdf', 
+         //path: 'which-came-first.pdf', 
+         path: 'speak-butterfly.pdf', 
          width: '6in', 
          height: '9in',
          //margin: {top: '.5in', bottom: '.5in'},

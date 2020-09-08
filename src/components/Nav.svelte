@@ -120,6 +120,7 @@
     <a href=".">home</a>
     <a href="about">about</a>
     <a href="books">books</a>
+    <a href="store">store</a>
   </div>
 {/if}
 <nav>
@@ -152,8 +153,16 @@
           books
         </a>
       </li>
+      <li class="menu">
+        <a
+          rel="prefetch"
+          aria-current={segment === 'store' ? 'page' : undefined}
+          href="store">
+          store
+        </a>
+      </li>
 
-      <!-- Show if logged in -->
+      <!--
       {#if isLoggedIn}
         <li class="menu">
           <a
@@ -163,13 +172,14 @@
           </a>
         </li>
       {/if}
-      <!-- End of logged in info -->
 
       <li class="login menu" data-netlify-identity-menu on:click={clickHandler}>
         <a aria-current={segment === 'login' ? 'page' : undefined} href="#top">
           {isLoggedIn ? `logout` : `login`}
         </a>
       </li>
+    </ul>
+    -->
     </ul>
   </div>
 </nav>
