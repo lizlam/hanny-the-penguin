@@ -1,6 +1,6 @@
 ---
-title: "Panda Pen Pal"
-slug: "panda-penpal"
+title: "What Cheers You Up?"
+slug: "what-cheers"
 cover_img: "/drawings/panda.jpg"
 ---
 
