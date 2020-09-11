@@ -1,6 +1,6 @@
 <script>
   import { onMount } from "svelte";
-  import { fade } from "svelte/transition";
+  import { fade, fly, slide } from "svelte/transition";
   export let segment;
   let user;
 
@@ -108,7 +108,7 @@
   }
 </style>
 
-<div in:fade class="mobile-nav" on:click={clickMenu}>
+<div class="mobile-nav" on:click={clickMenu}>
   <svg viewBox="0 0 100 80" width="30" height="40">
     <rect width="100" height="7" rx="50px" />
     <rect y="25" width="100" height="7" rx="50px" />
@@ -116,14 +116,14 @@
   </svg>
 </div>
 {#if showNavMenu}
-  <div in:fade class="mobile-nav-menu">
-    <a href=".">home</a>
-    <a href="about">about</a>
-    <a href="books">books</a>
-    <a href="store">store</a>
+  <div class="mobile-nav-menu">
+    <a transition:slide fade:out on:click={clickMenu} href=".">home</a>
+    <a transition:slide fade:out on:click={clickMenu} href="about">about</a>
+    <a transition:slide fade:out on:click={clickMenu} href="books">books</a>
+    <a transition:slide fade:out on:click={clickMenu} href="store">store</a>
   </div>
 {/if}
-<nav>
+<nav fade:in>
   <div class="container">
     <ul>
       <li class="menu" style="margin-top: 3.75px;">
