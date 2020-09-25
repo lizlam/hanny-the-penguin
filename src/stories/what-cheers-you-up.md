@@ -15,6 +15,7 @@ I'm sure it will cheer you up."
 Hanny thought this was a good idea.
 
 She grabbed a piece of paper and pencil, sat down, and began to write.
+
 ![Hanny writing](drawings/hanny-writing.jpg)
 
 > Dear Lin,
@@ -62,7 +63,8 @@ Lin began to write.
 ![Lin Family](/drawings/panda-family.jpg)
 
 Lin folded the letter and put it in the envelope.  
-"Mother, can we send this right away?" asked Lin.  
+"Mother, can we send this right away?" asked Lin.
+
 "Of course, dear. Leave it on the table.  
 I'll send for you in the morning." Mother Panda replied.
 
@@ -73,6 +75,8 @@ She read it and thought about all the things that cheer her up.
 Like when her mother makes her favorite fish soup or playing with
 her baby sister.  
 Or even getting letters from her panda pal Lin!
+
+![Hanny thinking](/drawings/hanny-thoughts.jpg)
 
 After thinking about all the things that cheer her up, the days didn't seem
 so cold at all.
