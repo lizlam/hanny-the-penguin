@@ -66,7 +66,7 @@ Lin folded the letter and put it in the envelope.
 "Mother, can we send this right away?" asked Lin.
 
 "Of course, dear. Leave it on the table.  
-I'll send for you in the morning." Mother Panda replied.
+I'll send it for you in the morning." Mother Panda replied.
 
 A few days later, Hanny received Lin's letter in the mail.
 
