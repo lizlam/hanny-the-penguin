@@ -64,4 +64,6 @@
   <div class="content">
     {@html post.html}
   </div>
+  <div id="end" />
+  <div id="afterEnd" />
 </main>
