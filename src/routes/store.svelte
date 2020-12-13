@@ -15,7 +15,11 @@
 <main in:fade>
   <h1>Support</h1>
 
-  <p>Support my work by purchasing a PDF.</p>
+  <p>Support my work by purchasing a PDF bundle.</p>
+
+  <p>Each PDF bundle includes Kindle friendly PDF <br />
+     and a Zine Edition PDF ready to <a href="https://www.wikihow.com/Make-a-Zine">print and fold</a>.
+  </p>
   <p>The books are always free to read online.</p>
 
   <div class="gumroad-product-embed" data-gumroad-product-id="ofPlO">
