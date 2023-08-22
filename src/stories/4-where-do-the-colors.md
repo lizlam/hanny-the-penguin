@@ -31,7 +31,7 @@ For all the things they're about to see.
 
 <img src="/drawings/sunset.jpeg" alt="Sunset" width="600"/>
 
-One by one into they sky they soar,
+One by one into the sky they soar,
 
 Following rays they can't ignore,
 
