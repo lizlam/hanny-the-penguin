@@ -2,7 +2,8 @@ const puppeteer = require("puppeteer");
 
 const books = [
   //"http://localhost:3000/books/which-came-first",
-  "http://localhost:3000/books/what-cheers",
+  //"http://localhost:3000/books/what-cheers",
+  "https://www.hannythepenguin.com/books/have-you-seen-my-ball"
   //"http://localhost:3000/books/speak-butterfly",
 ];
 
